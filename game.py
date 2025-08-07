@@ -79,7 +79,9 @@ def play(
         raise typer.Exit()
 
     print("--- 🏛️ Welcome to the Latin Quote Quiz! ---")
+    print("Enter '?' at any time to reveal the answer.")
     score = 0
+    reveals = 0
     
     # Ensure we don't ask for more rounds than available quotes
     num_rounds = min(rounds, len(quotes))
@@ -107,15 +109,21 @@ def play(
         print(question)
         user_input = input("\nYour answer: ")
 
-        # Simple check for correctness (case-insensitive)
-        if user_input.strip().lower() == answer.strip().lower():
+        # Check if the user wants to reveal the answer
+        if user_input.strip() == '?':
+            print(f"🤔 The answer is: {answer}")
+            reveals += 1
+        # Check if the user's answer is correct
+        elif user_input.strip().lower() == answer.strip().lower():
             print(f"✅ Correct! The answer is: {answer}")
             score += 1
+        # Otherwise, the answer is incorrect
         else:
             print(f"❌ Incorrect. The correct answer was: {answer}")
 
     print("\n--- 🏆 Game Over! ---")
     print(f"Your final score: {score}/{num_rounds}")
+    print(f"Answers revealed: {reveals}")
 
 
 @app.command()

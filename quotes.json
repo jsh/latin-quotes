@@ -60,15 +60,15 @@
     "english_translation": "Success nourishes hope.",
     "author": "Clan Ross motto",
     "work": "N/A",
-    "notes": "The UI says this field's optional, but it's forcing me to enter something.",
+    "notes": "",
     "id": 8
   },
   {
     "latin_text": "Fugit hōra.",
     "english_translation": "Time flies.",
     "author": "Anon",
-    "work": "\"Tempus fugit\" is more common.",
-    "notes": "-",
+    "notes": "\"Tempus fugit\" is more common.",
+    "work": "N/A",
     "id": 9
   }
 ]
