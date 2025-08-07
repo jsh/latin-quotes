@@ -38,6 +38,37 @@
     "author": "Horace",
     "work": "Odes",
     "notes": "A famous exhortation to live in the present."
+  },
+  {
+    "latin_text": "Manus manum lavat.",
+    "english_translation": "One hand washes the other.",
+    "author": "Petronius",
+    "work": "Satyricon",
+    "notes": "from Knudsvig, et al., Latin for Reading, chapter 1",
+    "id": 6
+  },
+  {
+    "latin_text": "Impedit īra animum.",
+    "english_translation": "Anger obstructs the mind.",
+    "author": "Dionisius Cato",
+    "work": "Disticha Catonis",
+    "notes": "The only work of his we know.",
+    "id": 7
+  },
+  {
+    "latin_text": "Spem successus alit.",
+    "english_translation": "Success nourishes hope.",
+    "author": "Clan Ross motto",
+    "work": "N/A",
+    "notes": "The UI says this field's optional, but it's forcing me to enter something.",
+    "id": 8
+  },
+  {
+    "latin_text": "Fugit hōra.",
+    "english_translation": "Time flies.",
+    "author": "Anon",
+    "work": "\"Tempus fugit\" is more common.",
+    "notes": "-",
+    "id": 9
   }
 ]
-
