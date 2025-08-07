@@ -52,12 +52,17 @@ def get_next_id(quotes: list[dict]) -> int:
 
 # --- Typer Application Setup ---
 
-# This creates the main Typer application object.
-# We can add commands to this object.
 app = typer.Typer(
-    help="A simple CLI game for learning Latin quotes.",
-    no_args_is_help=True
+    help="A simple CLI game for learning Latin quotes."
 )
+
+@app.callback()
+def main():
+    """
+    A simple CLI game for learning Latin quotes.
+    This callback helps structure the app and can resolve completion issues.
+    """
+    pass
 
 # --- Typer Commands ---
 
@@ -125,7 +130,8 @@ def add():
     english_translation = typer.prompt("English Translation")
     author = typer.prompt("Author")
     work = typer.prompt("Work")
-    notes = typer.prompt("Notes (optional)")
+    # This change allows the user to press Enter to skip the optional field.
+    notes = typer.prompt("Notes (optional)", default="", show_default=False)
 
     new_quote = {
         "latin_text": latin_text,
