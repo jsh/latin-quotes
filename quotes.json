@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "latin_text": "Forsan et haec olim meminisse iuvābit.",
+    "english_translation": "Perhaps one day it will be pleasing to remember even this.",
+    "author": "Virgil",
+    "work": "Aeneid",
+    "notes": "Spoken by Aeneas to his men to comfort them during a storm."
+  },
+  {
+    "id": 2,
+    "latin_text": "Ālea iacta est.",
+    "english_translation": "The die is cast.",
+    "author": "Julius Caesar",
+    "work": "De Bello Civili",
+    "notes": "Said upon crossing the Rubicon river, starting a civil war."
+  },
+  {
+    "id": 3,
+    "latin_text": "Tantaene animīs caelestibus īrae?",
+    "english_translation": "Can there be such great anger in heavenly minds?",
+    "author": "Virgil",
+    "work": "Aeneid",
+    "notes": "The opening lines of the epic, questioning Juno's wrath."
+  },
+  {
+    "id": 4,
+    "latin_text": "Oderint dum metuant.",
+    "english_translation": "Let them hate, so long as they fear.",
+    "author": "Lucius Accius",
+    "work": "Atreus",
+    "notes": "A famous line from a tragic play, often attributed to the emperor Caligula."
+  },
+  {
+    "id": 5,
+    "latin_text": "Carpe diem, quam minimum crēdula posterō.",
+    "english_translation": "Seize the day, trusting as little as possible in the next.",
+    "author": "Horace",
+    "work": "Odes",
+    "notes": "A famous exhortation to live in the present."
+  }
+]
+
