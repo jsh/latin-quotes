@@ -36,8 +36,8 @@
     "latin_text": "Carpe diem, quam minimum crēdula posterō.",
     "english_translation": "Seize the day, trusting as little as possible in the next.",
     "author": "Horace",
-    "work": "Odes",
-    "notes": "A famous exhortation to live in the present."
+    "work": "Odes, Book 1, Poem 11",
+    "notes": "A famous exhortation to live in the present. Written around 23BC"
   },
   {
     "latin_text": "Manus manum lavat.",
@@ -70,5 +70,45 @@
     "notes": "\"Tempus fugit\" is more common.",
     "work": "N/A",
     "id": 9
+  },
+  {
+    "latin_text": "Facit occāsiō fūrem.",
+    "english_translation": "Opportunity makes a thief.",
+    "author": "Otto Vaenius",
+    "work": "Amorum emblemata",
+    "notes": "",
+    "id": 10
+  },
+  {
+    "latin_text": "Vincit vēritās.",
+    "english_translation": "Truth prevails.",
+    "author": "Anon"
+    "work": "Latin proverb",
+    "notes": "Motto of Czechia",
+    "id": 11
+  },
+  {
+    "latin_text": "Cogito, ergo sum.",
+    "english_translation": "I think, therefore I am.",
+    "author": "René Descartes",
+    "work": "Principia Philosophiae",
+    "notes": "He also wrote it in French (\"Je pense, donc je suis\") in his 1637 Discourse on the Method.",
+    "id": 12
+  },
+  {
+    "latin_text": "Veni, vidi, vici.",
+    "english_translation": "I came, I saw, I conquered.",
+    "author": "Julius Caesar",
+    "work": "Letter to Amantius",
+    "notes": "After battle of Zela",
+    "id": 13
+  },
+  {
+    "latin_text": "Et tu, Brute?",
+    "english_translation": "You too, Brutus?",
+    "author": "William Shakespeare",
+    "work": "Julius Caesar",
+    "notes": "Written around 1599. Suetonius says Caesar's last words were \"Καὶ σὺ, τέκνον?\"",
+    "id": 14
   }
 ]
